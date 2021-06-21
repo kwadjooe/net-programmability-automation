@@ -1,0 +1,11 @@
+---
+hostname sw1
+domain_name: lab.local
+vlans:
+  - id: 10
+    name: store
+  - id: 20
+    name: mgmt
+  - id: 30
+    name: staff
+    

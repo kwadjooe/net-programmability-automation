@@ -1,0 +1,12 @@
+hostname sw1
+ip domain-name lab.local
+!
+vlan 10
+    name store
+!
+vlan 20
+    name mgmt
+!
+vlan 30
+    name staff
+!
