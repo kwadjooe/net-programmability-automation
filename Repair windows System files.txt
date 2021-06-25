@@ -1,0 +1,7 @@
+ 
+
+sfc /scannow
+
+Dism.exe /online /cleanup-image /scanhealth
+
+Dism.exe /online /cleanup-image /restorehealth  
